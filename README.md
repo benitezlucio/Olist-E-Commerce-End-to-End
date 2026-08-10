@@ -24,7 +24,7 @@ El objetivo principal de este proyecto es analizar el comportamiento de compras,
 
 ---
 
-🔄 Flujo de Trabajo (Pipeline)
+## 🔄 Flujo de Trabajo (Pipeline)
 El desarrollo del proyecto se estructuró en 4 fases principales:
 
 Comprensión de Datos (01_Data_Understanding.ipynb): Inspección de esquemas, relaciones relacionales entre tablas de Olist y validación del alcance de cada variable.
@@ -35,7 +35,7 @@ Análisis Exploratorio (EDA.ipynb): Visualización de métricas de ventas, distr
 
 Machine Learning (ML_Models+Conclusions.ipynb): Selección e ingeniería de características, evaluación de algoritmos predictivos, optimización de hiperparámetros y síntesis de hallazgos para la toma de decisiones.
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 Lenguaje: Python 3.x
 
 Manipulación de datos: Pandas, NumPy
@@ -46,18 +46,22 @@ Machine Learning: Scikit-Learn
 
 Entorno de desarrollo: JupyterLab / Visual Studio Code
 
-🚀 Instalación y Uso
+## 🚀 Instalación y Uso
 Clonar el repositorio:
 
 Bash
 git clone [https://github.com/benitezlucio/Olist-E-Commerce-End-to-End.git](https://github.com/benitezlucio/Olist-E-Commerce-End-to-End.git)
+
 cd Olist-E-Commerce-End-to-End
+
 Crear y activar un entorno virtual (opcional pero recomendado):
 
 Bash
 python -m venv venv
+
 # En Windows:
 venv\Scripts\activate
+
 # En macOS/Linux:
 source venv/bin/activate
 Instalar dependencias necesarias:
@@ -68,7 +72,8 @@ Ejecutar los notebooks:
 
 Bash
 jupyter notebook
-📊 Resultados y Conclusiones
+
+## 📊 Resultados y Conclusiones
 El modelo permite identificar aproximadamente 47 de cada 100 experiencias que terminarían siendo negativas. De las experiencias que el modelo señala como potencialmente negativas, aproximadamente 56 de cada 100 efectivamente presentan una valoración negativa. Esto permite priorizar clientes potencialmente insatisfechos para acciones de seguimiento, aceptando cierto nivel de falsas alertas..
 
 Los tiempos de envío muestran una correlación directa con las calificaciones negativas (reviews de 1 y 2 estrellas).
